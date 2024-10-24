@@ -7,11 +7,11 @@
 #include <PulseSensorPlayground.h>
 
 // Wi-Fi credentials
-const char* ssid = "POCO X4 Pro 5G";
-const char* password = "sanjay2411";
+const char* ssid = "POCO X4 Pro 5G"; #replace with your wifi ssid
+const char* password = "Password";
 
 // Server URL
-String serverURL = "http://192.168.112.68:5000/data";
+String serverURL = "http://<ip_address>:5000/data"; #Replace with your server ip address
 
 // DS18B20 setup
 #define ONE_WIRE_BUS 4 // Pin connected to DS18B20
